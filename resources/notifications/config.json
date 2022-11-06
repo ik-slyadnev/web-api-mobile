@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "qa_guru_python_lesson_final",
+    "environment": "dev",
+    "comment": "web, api, mobile",
+    "reportLink": "https://jenkins.autotests.cloud/job/python_final_project_Elieeeya/",
+    "language": "en",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5207087185:AAGckEHzZXrYgDXaEH-oUwzpQaEe-Ge3E08",
+    "chat": "-1001722006807",
+    "replyTo": ""
+  }
+}

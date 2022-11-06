@@ -1,0 +1,37 @@
+# Created by pytest automatically.
+.pytest_cache/v
+# JetBrains
+../../../Desktop/qa_guru_python_lesson_final/.idea/
+*.iml
+.idea/workspace.xml
+
+# MacOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Other cache
+.cache
+**/.pytest_cache/
+
+# Logs
+*.log
+
+# Environments
+.venv*
+venv*/
+
+# Allure
+.allure-results*
+allure-results*/
+test/allure-results
+test/api/allure-results
+test/web/allure-results
+test/mobile/allure-results
+
+# .env
+.env
+
