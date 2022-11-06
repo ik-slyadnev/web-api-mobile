@@ -8,6 +8,20 @@ from test.conftest import *
 from util.attach import add_mob_video
 
 
+@pytest.fixture(scope='function', autouse=True)
+def create_driver():
+    browser.config.timeout = config.settings.timeout
+    browser.config._wait_decorator = support._logging.wait_with(
+        context=allure_commons._allure.StepContext
+    )
+
+    browser.config.driver = webdriver.Remote(
+        config.settings.remote_url, options=config.settings.driver_options
+    )
+
+    return browser
+
+
 @pytest.mark.mobile
 @allure.description('Swipe menu items')
 def test_swipe_menu():
