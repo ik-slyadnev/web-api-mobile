@@ -9,5 +9,6 @@ class ConfiguratorModel:
         return self
 
     def check_model_bmw(self):
+        browser.wait.until(5)
         browser.element('[title="BMW X6"]').click()
         return self
