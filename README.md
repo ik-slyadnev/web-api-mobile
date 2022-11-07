@@ -24,14 +24,17 @@
 <img width="50px" title="Selenium" src="resources/image/logo/selenium.png">
 <img width="50px" title="Telegram" src="resources/image/logo/Telegram.svg">
 </p>
+<br>
 
+В данном проекте автотесты написаны на **Python** с использованием фреймворка для тестирования **Selene\Selenium**.
 
-В данном проекте автотесты написаны на **Python** с использованием фреймворка для тестирования **Selene \ Selenium**. 
 Запуск тестов выполняется из **Jenkins**. **Selenoid** используется для запуска браузеров в контейнерах **Docker**. 
 
 **Browserstack** используется для запуска мобильных тестов, для запуска на эмуляторе используются **Android Studio** и **Appium**. 
+
 **Allure Report** и **Telegram Bot** используются для визуализации результатов тестирования.
 
+<br>
 
 ## Тест кейсы
 
@@ -73,7 +76,7 @@
 
 ✓ Тест просмотра программы лояльности
 
-
+<br>
 
 
 ## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/Elieeeya_qa_guru_final/allure/)
