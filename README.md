@@ -4,14 +4,6 @@
 #### MOBILE - https://vkusvill.ru/
 #### API - http://shop.bugred.ru/
   
-  
-## Содержание:
-
-* [Тест кейсы]()
-* [Сборка в Jenkins](https://jenkins.autotests.cloud/job/Elieeeya_qa_guru_final/)
-* [Информация о тестах в Allure report]()
-
-
 
 ## Технологии, используемые в данном проекте
 
